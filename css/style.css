@@ -47,9 +47,9 @@ span a {
   top: 70px;
   width: 100%;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   border: 3px white solid;
+
 }
 
 .first-container {
@@ -60,6 +60,7 @@ span a {
   width: 1200px;
   height: 700px;
   border: 1px white solid;
+  margin-left: 300px;
 }
 
 .our-mission {
@@ -76,14 +77,26 @@ span a {
 .second-container {
   display: flex;
   flex-direction: column;
-  text-align: center;
   border: 3px white solid;
   width: 1000px;
+  margin-left: 400px;
+
 }
 
-.Tea {
-  border: 1px white solid;
+.Tea-of-the-month {
+
+
 }
+
+
+
+.photo {
+  height: 300px;
+  width: 200px;
+}
+
+
+
 
 
 
