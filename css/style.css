@@ -1,13 +1,10 @@
 
-
-
 body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
-
 }
 
 header {
@@ -19,15 +16,12 @@ header {
   justify-content: space-between;
   height: 69px;
   background-color: black;
-
-
 }
 
 .logo img {
   display: flex;
   height: 50px;
   padding-left: 10px;
-
 }
 
 
@@ -48,23 +42,21 @@ span a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  border: 3px white solid;
-
 }
 
-.first-container {
+.first-picture {
+  margin-top: 67px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
-  border: 1px white solid;
   margin-left: 300px;
+
 }
 
 .our-mission {
-  border: 1px white solid;
   height: 125px;
   padding-bottom: 5px;
   text-align: center;
@@ -73,33 +65,72 @@ span a {
 }
 
 
-/* Below is second container */
-.second-container {
+/* Below is mid of the website */
+
+.monthly-tea {
   display: flex;
   flex-direction: column;
-  border: 3px white solid;
-  width: 1000px;
+  margin-top: 50px;
   margin-left: 400px;
-
+  text-align: center;
+  width: 1000px;
 }
 
-.Tea-of-the-month {
-
-
+.different-teas {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
-
 
 .photo {
-  height: 300px;
-  width: 200px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
 }
 
 
+.tea-photo {
+  height: 200px;
+  width: 300px;
+}
+
+/* below is the last section on the page with the Loaction */
+
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin-left: 300px;
+  margin-top: 50px;
+  align-items: center;
+  padding-bottom: 100px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
 
 
+.locations-spec {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  width: 300px;
+  height: 300px;
+}
 
+.contact-info {
+  height: 200px;
+  text-align: center;
+}
 
-.text {
-  padding-top: 40px;
+footer {
+text-align: left;
+margin-left: 20px;
 }
