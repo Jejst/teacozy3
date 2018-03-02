@@ -9,13 +9,17 @@ body {
 
 header {
   display: flex;
+  position: fixed;
   border-bottom: 1px white solid;
   align-items: center;
-  position: fixed;
   width: 100%;
   justify-content: space-between;
   height: 69px;
   background-color: black;
+  z-index: 2;
+
+
+
 }
 
 .logo img {
@@ -25,15 +29,12 @@ header {
 }
 
 
-nav span {
+nav a {
   display: inline-block;
   padding-right: 20px;
   color: white;
 }
 
-span a {
-  color: white;
-}
 
 /* Below is the first container */
 
@@ -42,6 +43,7 @@ span a {
   width: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .first-picture {
@@ -61,7 +63,6 @@ span a {
   padding-bottom: 5px;
   text-align: center;
   background-color: black;
-
 }
 
 
@@ -124,6 +125,7 @@ span a {
   width: 300px;
   height: 300px;
 }
+
 
 .contact-info {
   height: 200px;
